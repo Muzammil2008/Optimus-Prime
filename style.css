@@ -1,0 +1,191 @@
+#who{
+  background: url("https://images.wallpapersden.com/image/download/optimus-prime-in-transformers_amxrZ2WUmZqaraWkpJRnamtlrWZpaWU.jpg") no-repeat ;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/*#who p{
+	position: relative;
+	top:800px;
+	font-weight: bold;
+	left:60px;
+	font-size: 25px;
+	color: gray
+}*/
+.topic{
+	text-align: center;
+	color: #746868;
+	margin-top: 20px;
+}
+@media only screen and (min-width: 600px){
+	#what img{
+	margin-top: 40px;
+	float: right;
+
+}
+}
+
+.content{
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 50px;
+	clear: both;
+}
+.Pax{
+	color: #14274e;
+}
+.a{
+	color: #150485;
+}
+.video{
+	position: all;
+	right: 4000px;
+	left: 0px;
+	top: 50px;
+}
+.data{
+	height: 400px;
+	float-left: 300px;
+}
+}
+#what{
+	padding: 150px;
+	background-color: #D2D2D3;
+}
+.friends ,.enemies{
+	margin-top: 50px;
+	display: flex;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#about{
+	background-color: #132743;
+}
+.promises{
+	color: #CAC1C1;
+	text-align: center;
+	padding: 100px;
+}
+.autobot-optimusprime{
+	margin-top: 50px;
+	display: flex;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+footer{
+	background-color: #031634;
+	padding: 80px;
+	margin-top: 25px;
+}
+.copyright{
+	text-align: center;
+	color: #CAC1C1;
+}
+.rights{
+	text-align: center;
+	color: #CAC1C1;
+}
+
+@media only screen and (max-width: 600px){
+	#what img{
+		width: 50%;
+	}
+	#what{
+		padding: 50px;
+	}
+	#what p{
+		clear: both;
+	}
+	#what img{
+		display: flex;
+	    display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+     }
+	
+}
+
+::-webkit-scrollbar{
+	width: 0;
+
+
+}
+#scrollPath{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+}
+#progressbar{
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+
+	0%, 100%
+	{
+		filter: hue-rotate(0deg);
+	}
+	50%
+	{
+		filter: hue-rotate(50deg);
+	}
+}
+#progressbar:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	filter: blur(10px);
+
+}
+#progressbar:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(to top, #008aff, #00ffe7);
+	filter: blur(30px);
+
+}
+.nav-link:hover{
+	border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    padding: 6px 0px;
+    background: #11ADE8;
+}
+.or{
+	float: left;
+	margin-right: 450px;
+}
+.ifram{
+	text-align: center;
+	margin-left: 400px;
+	margin-bottom: 200px;
+}
+.collapse navbar-collapse{
+	color: #080A33;
+}

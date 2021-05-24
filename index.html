@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Favicon -->
+
+    <link
+      rel="icon"
+      href="https://wallpapercave.com/wp/wp1936331.jpg"
+    />
+
+    <!-- My Css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Optimus Prime</title>
+  </head>
+  <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <section id="nab">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Optimus Prime</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#who"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what">What?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#more">More</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="who" 
+    class="animate__animated animate__rollIn"
+    >
+      <div class="Pax">
+        <p class="animate__animated animate__bounceInLeft">
+         <b><br><h4>“In any war, there are calms between storms.<h4/><br/><h4><b> There will be days when we lose faith.<b/></h4><br><h4><b> Days when our allies turn against us...<b/></h4><br><h4><b>But the day will never come that we forsake.</h4><br><b>This planet and its people"<br/><b/>
+         </div>
+    </section>
+    <section id="what">
+      <h1 class="topic animate__animated animate__wobble">W .. What?</h1>
+      <div class="data"><img src="orionpax.jpg" class="animate__animated animate__rotateIn or" /></div>
+      <p class="content animate__animated animate__lightSpeedInLeft">
+       <clear><h3><b>Before the Great War, Optimus Prime was originally known as Orion Pax; a young data clerk who worked in Iacon, under the wing of Alpha Trion. ... Years of war against his old friend/rival, Megatron, have brought Optimus and his team to Earth. After Optimus and his team first met humans on Earth, they allied with them.</clear><h3/><b/>
+      </p>
+    </section>
+    <section id="about">
+      <h2 class="promises animate__animated animate__fadeInDownBig">
+       <br />
+        
+      </h2>
+      <div class="video">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u9DyRps2sn8?start=42" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="ifram"></iframe>
+  </div>
+    </section>
+
+    <div class="a">
+      <section id="more">
+      <h1 class="topic animate__animated animate__slideInLeft">Before</h1>
+      <img class="friends animate__animated animate__rollIn" src="orion.jpg" />
+      <h1 class="topic animate__animated animate__slideInRight">After</h1>
+      <img
+        class="enemies animate__animated animate__rotateInUpLeft"
+        src="optimus-megatron.jpg"
+      <div/>
+    </section>
+    <footer>
+      <p class="copyright">
+        Copyright ©2020 Mohammed Muzammil Hasan<!-- Mohammed Muzammil Hasan -->
+      </p>
+      <p class="rights">All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      	let progress = document.getElementById('progressbar');
+      	let totalHeight= document.body.scrollHeight - window.innerHeight;
+
+      	window.onscroll= function() {
+      		let progressHeight= (window.pageYOffSet / totalHeight) *100;
+      		progress.style.height= progressHeight + "%";
+      	}
+      });
+    </script>
+  </body>
+</html>
